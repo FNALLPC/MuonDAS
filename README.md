@@ -1,14 +1,13 @@
-# Muon Short Exercise 2025
+# Muon Short Exercise 2026
 
 ## Facilitators
 
-- Christina Wang
-- Michael Carrigan
+- Andrew Melo
 - Chris Cosby
-- Beren Ozek
-- Daniel Wilbern
-
-This tutorial is forked from the Muon HATS offered in 2024: https://github.com/JanFSchulte/MuonHATS
+- Harshul Gupta
+- Itzelli Salazar
+- Richa Sharma
+- Clara Ramon Alvarez
 
 ## Setup Environment
 
@@ -42,8 +41,8 @@ ssh -L localhost:8888:localhost:8888 <YOUR USERNAME>@cmslpc-el9.fnal.gov
 If you haven't done it yet, go to your `nobackup` area (`/uscms_data/d3/<YOUR USERNAME>/`) and create a folder for the CMSDAS exercises. Once you are there you can setup the CMSSW environment and clone our repository:
 
 ```bash
-git clone git@github.com:FNALLPC/MuonDAS2025.git
-cd MuonDAS2025
+git clone https://github.com:FNALLPC/MuonDAS MuonDAS2026
+cd MuonDAS2026
 ```
 
 The following commands one has to do it *everytime you log in into a new session*. They load the
@@ -325,3 +324,4 @@ Since you are using a pure Z sample, you won't need background subtraction nor f
 You will start by computing "true" efficiencies using the generator-level information. This will be your reference efficiencies. Next, you will implement a simple tag-and-probe algorithm to measure the efficiencies with a data-driven approach, and you will compare your results to the "true" efficiencies. Finally, you will try to use the same algorithm on a real single-muon data sample, taken from the 2022F CMS data.
 
 Detailed instructions are already posted in Exercise-4-Muon-Efficiencies.ipynb. Now please open Exercise-4-Muon-Efficiencies.ipynb. Please follow the instructions on the notebook, run and modify the code. Please try to solve the questions posted in the notebook, answers are stored in solutions folder. 
+
